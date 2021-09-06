@@ -1,0 +1,92 @@
+<html>
+  <head>
+  <title>Formulario</title>
+  <link rel="shortcut icon" href="Img/Form.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <div class="contenedor">
+  <form id="survey-form">
+    <h1 id="title" class="titulo">
+      Este es mi titulo</h1>
+    <p id="description">
+      Parrafo descriptivo del titulo</p>
+    <label class="labels" id="name-label" for="name" class="labels">
+      Name: 
+    </label><br/>
+    <input class="cajas" id="name" type="text" placeholder="Ej: Ezequiel Godoy" required>
+    <br></br>
+    <label class="labels" id="email-label" for="email" class="labels">
+      Email:
+    </label><br/>
+    <input class="cajas"  id="email" type="email" placeholder="Ej: ezequiel@gmail.com" required>
+    <br></br>
+    <label class="labels" id="number-label" for="age" class="labels">
+      Age:
+    </label><br/>
+    <input class="cajas"  id="number" type="number" placeholder="Age" max="99" min="18" required>
+    <br/>
+    <h2 class="titulo">Subtituto de cascada</h2>
+    <p>Pequeña descripcion</p>
+    <label class="labels" for="cascada">
+      Cascada:
+    </label>
+    <select name="cascada" id="dropdown">
+      <option value="Opcion1">
+        Opcion1
+      </option>
+      <option value="Opcion2">
+        Opcion2
+      </option>
+      <option value="Opcion3">
+        Opcion3
+      </option>
+    </select>
+    <h2 class="titulo">Opciones de radio</h2>
+    <p>Pequeña descripcion</p>
+    <input type="radio" id="radio1" name="name" value="name1"></input>
+    <label for="radio1">
+      Radio1
+    </label>
+    <br/>
+    <input type="radio" id="radio2" name="name" value="name2"></input>
+    <label for="radio2">
+      Radio2
+    </label>
+    <br/>
+    <input type="radio" id="radio3" name="name" value="name3"></input>
+    <label for="radio3">
+      Radio3
+    </label>
+    <br/>
+    <h2 class="titulo">Opciones de check</h2>
+    <p>Pequeña descripcion</p>
+    <input type="checkbox" id="check1" name="name" value="name1"></input>
+    <label for="check1">
+      Check1
+    </label>
+    <br/>
+    <input type="checkbox" id="check2" name="name" value="name2"></input>
+    <label for="check2">
+      Check2
+    </label>
+    <br/>
+    <input type="checkbox" id="check3" name="name" value="name3"></input>
+    <label for="check3">
+      Check3
+    </label>
+    <br/>
+
+    <label for="textarea">
+      <h2 class="titulo">Extra</h2>
+      <p>Pequeña descripcion</p>
+    </label>
+    <br/>
+    <textarea class="texto_caja" type="text" name="textarea" placeholder="Deje su comentario"></textarea>
+    <br/>
+    <button id="submit" type="submit">
+      Submit
+    </button>
+  </form>
+</div>
+</html>
+

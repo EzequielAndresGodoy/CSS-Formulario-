@@ -1,0 +1,40 @@
+body{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/a0/4b/23/a04b23beb1b91d4aed1b730140264f26.jpg");
+}
+.titulo{
+  color: white;
+  text-align: center;
+}
+#survey-form{
+  position: absolute;
+  background-color: rgba(50, 120, 160, 0.4);
+  border-radius: 0.25rem;
+  text-align: center;
+  margin: 30px;
+  width: 350px;
+}
+.contenedor{
+  display: flex;
+  justify-content: center;
+}
+#submit{
+  border-radius: 0.5rem;
+  width: 80%;
+  background-color: rgba(12,140,160,0.8);
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid;
+}
+
+.cajas{
+  width:80%;
+}
+
+.texto_caja{
+  width:80%;
+  height:50px;
+}
